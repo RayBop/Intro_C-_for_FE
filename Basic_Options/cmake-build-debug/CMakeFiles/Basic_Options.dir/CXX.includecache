@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rayboppana/CLionProjects/Basic_Options/EuropeanOption.h
+string
+-
+
+/Users/rayboppana/CLionProjects/Basic_Options/main.cpp
+EuropeanOption.h
+/Users/rayboppana/CLionProjects/Basic_Options/EuropeanOption.h
+iostream
+-
+
